@@ -9,7 +9,7 @@ import { BrowserRouter } from 'react-router-dom';
 import css from './styles.css';
 
 // import components
-import Main from './Main';
+import Main from './components/Main';
 
 const router = ( 
   <BrowserRouter>

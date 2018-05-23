@@ -12,7 +12,7 @@ class Main extends Component{
     return (
       <div>
         <h1>
-          <Link to="/view">Reduxtagram</Link>          
+          <Link to="/view">Instagram clone</Link>          
         </h1>
         <Route exact path={match.url} component={Photogrid}/>
         <Route path="/view" component={Single}/>
