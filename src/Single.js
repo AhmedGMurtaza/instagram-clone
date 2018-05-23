@@ -9,3 +9,5 @@ class Single extends Component{
     );
   }
 } 
+
+export default Single;

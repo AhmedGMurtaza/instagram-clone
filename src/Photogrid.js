@@ -9,3 +9,5 @@ class Photogrid extends Component{
     );
   }
 } 
+
+export default Photogrid;

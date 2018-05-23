@@ -1,27 +1,21 @@
 import React from 'react';
 import { render } from 'react-dom';
 
+// import react router deps
+import { Route } from 'react-router';
+import { BrowserRouter } from 'react-router-dom';
+
 // import css
 import css from './styles.css';
 
 // import components
 import Main from './Main';
-import Single from './Single';
-import Photogrid from './Photogrid';
-
-// import react router deps
-import { 
-  Route, 
-  IndexRoute, 
-  Router } from 'react-router';
 
 const router = ( 
-  <Router>
+  <BrowserRouter>
     <Route path="/" component={Main}>
-      <Route exact path="/" component={Photogrid} /> 
-      <Route path="/view/:postId" component={Single} />
     </Route>
-  </Router>
+  </BrowserRouter>
 );
 
 
